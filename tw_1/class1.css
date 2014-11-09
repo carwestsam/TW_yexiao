@@ -1,0 +1,35 @@
+body header{
+    overflow:hidden;
+    margin:auto;
+    width:900px;
+}
+body header .header-left{
+    float : left
+}
+body header .header-left img{
+    width:300px;
+    border:1px solid red;
+}
+body header .header-right{
+    width: 480px;
+    float : right;
+    margin-left:100px;
+    margin-top:0px;
+}
+
+body header .header-right form button{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-color:aquamarine;
+    border:transparent;
+    cursor:pointer
+}
+
+body header .header-right form button:hover{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-color:blanchedalmond;
+    border:transparent;
+}
